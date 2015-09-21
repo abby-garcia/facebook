@@ -5,8 +5,48 @@
 	margin-top: 20px;
 }
 
+#benefits img{
+	display: inline;
+}
+
+#benefits p{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+
 #signin{
 	float:right;
-	text-align: inline;
+	display: inline;
 	background-color: #3A5795;
 }
+
+#signup{
+	float: right;
+}
+
+#gender{
+	float:right;
+	margin-bottom: 80px;
+}
+
+#radio-inline{
+	margin-right: 10px;
+
+}
+
+
+
+#languages p{
+	display: inline;
+	margin-left: 20px;
+}
+
+#sitelinks p{
+	display: inline;
+	margin-left: 15px;
+}
+
