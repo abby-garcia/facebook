@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<script src="jquery-1.11.3.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 <div id="left">
 
@@ -14,9 +18,7 @@
   <div id="banner">
   <img src="images/icon.png">
   </div>
-</header>
-
-<div id="signin">
+  <div id="signin">
 <form class="form-inline" role="form">
   <div class="form-group">
     <label for="email">Email or Phone</label>
@@ -33,6 +35,11 @@
 </form>
 </div>
 
+
+</header>
+
+
+
 <div class="col-sm-6">
 
 <div id="connect">
@@ -41,12 +48,17 @@
 world around you on Facebook.</h2>
 </div>
 
+<br>
 
 <div id="benefits">
 
 <img src="images/news.png" align="left"> <p> <b> See photos and updates </b> from friends in News Feed. </p>
 
+<div class="clearfix"></div>
+
 <img src="images/comp.png" align="left"> <p> <b> Share what's new </b> in your life on your Timeline. </p>
+
+<div class="clearfix"></div>
 
 <img src="images/circles.png" align="left"><p> <b> Find more </b> of what you're looking for with Facebook Search. </p>
 
@@ -90,49 +102,100 @@ world around you on Facebook.</h2>
       <input type="text" class="form-control" placeholder="New password " aria-describedby="sizing-addon3">
     </div>
 
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Month
+      <span class="caret"></span>
+    </button>
+
+    <!--add <a> to the months !-->
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a>Jan </a></li>
+      <li><a> Feb </a></li>
+      <li><a> Mar </a></li>
+      <li><a> Apr </a></li>
+      <li><a>May </a></li>
+      <li><a> Jun </a></li>
+      <li><a>Jul </a></li>
+      <li><a> Aug </a></li>
+      <li><a>Sept</a></li>
+      <li><a> Oct </a></li>
+      <li><a> Nov </a></li>
+      <li><a>Dec </a></li>
+    </ul>
+  </div>
+  <div class="clearfix"> </div>
 
 
 
-</div>
 
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Day
+      <span class="caret"></span>
+    </button>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a> 1 </a></li>
+      <li><a> 2 </a></li>
+      <li><a> 3 </a></li>
+      <li><a> 4 </a></li>
+      <li><a> 5 </a></li>
+      <li><a> 6 </a></li>
+      <li><a> 7 </a></li>
+      <li><a> 8 </a></li>
+      <li><a> 9 </a></li>
+      <li><a> 10 </a></li>
+      <li><a> 11 </a></li>
+      <li><a> 12 </a></li>
+      <li><a> 13 </a></li>
+      <li><a> 14 </a></li>
+      <li><a> 15 </a></li>
+      <li><a> 16 </a></li>
+      <li><a> 17 </a></li>
+      <li><a> 18 </a></li>
+      <li><a> 19 </a></li>
+      <li><a> 20 </a></li>
+      <li><a> 21 </a></li>
+      <li><a> 22 </a></li>
+      <li><a> 23 </a></li>
+      <li><a> 24 </a></li>
+      <li><a> 25 </a></li>
+      <li><a> 26 </a></li>
+      <li><a> 27 </a></li>
+      <li><a> 28 </a></li>
+      <li><a> 29 </a></li>
+      <li><a> 30 </a></li>
+      <li><a> 31 </a></li>
+    </ul>
+  </div>
 
 
 <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
-    <span class="caret"></span>
-  </button>
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Year
+      <span class="caret"></span>
+    </button>
+
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li>Jan </a></li>
-    <li> Feb </a></li>
-    <li> Mar </a></li>
-    <li> Apr </a></li>
-    <li> May </a></li>
-    <li> Jun </a></li>
-    <li> Jul </a></li>
-    <li> Aug </a></li>
-    <li> Sept</a></li>
-    <li> Oct </a></li>
-    <li> Nov </a></li>
-    <li> Dec </a></li>
-  </ul>
-</div>
+      <li><a> 1990 </a></li>
+      <li><a> 1991 </a></li>
+      <li><a> 1992 </a></li>
+      <li><a> 1993 </a></li>
+      <li><a> 1994 </a></li>
+    </ul>
+  </div>
 
-
-<div id="birthday">
-
-
-</div>
-
-<div id="gender">
- <form role="form">
-    <label class="radio-inline">
-      <input type="radio" name="optradio">Female
-    </label>
-    <label class="radio-inline">
-      <input type="radio" name="optradio">Male
-    </label>
-  </form>
+<div class="clearfix"> </div>
+  <div id="gender">
+    <form role="form">
+       <label class="radio-inline">
+         <input type="radio" name="optradio">Female
+       </label>
+       <label class="radio-inline">
+         <input type="radio" name="optradio">Male
+       </label>
+     </form>
 
 </div>
 
@@ -144,21 +207,34 @@ read our <a href="Data Policy"> Data Policy </a>, including our <a href = "https
 </div>
 </div>
 
-<div id="languages">
-  <p> English </p>  
-  <p> Espanol </p>
-  <p> Francais (France) </p>
-  <p> Chinese </p>
-  <p> Arabic </p>
-  <p> Portugues (Brasil) </p>
-  <p> Italiano</p>
-  <p> Korean </p>
-  <p> Deutsch </p>
+<div id="birthday">
+
+
 </div>
+
+
+</div>
+
 
 <br>
 
+
+  
 <footer>
+  <div id="languages">
+    <p> English </p>  
+    <p> Espanol </p>
+    <p> Francais (France) </p>
+    <p> Chinese </p>
+    <p> Arabic </p>
+    <p> Portugues (Brasil) </p>
+    <p> Italiano</p>
+    <p> Korean </p>
+    <p> Deutsch </p>
+  </div>
+
+  <hr>
+
   <div id="sitelinks">
     <div id="sitelinks1">
     <p> Sign Up </p>
@@ -174,6 +250,7 @@ read our <a href="Data Policy"> Data Policy </a>, including our <a href = "https
   
     <br>
     
+    <!--use ancor tags instead of p tags/ create separate divs and float left !-->
     <div id="sitelinks2">
     <p> Games </p>
     <p> Locations </p>
@@ -205,7 +282,12 @@ read our <a href="Data Policy"> Data Policy </a>, including our <a href = "https
 
 <body>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
 
 
 
