@@ -26,10 +26,12 @@
     <form class="form-inline" role="form">
       <div class="form-group">
         <label for="email">Email or Phone</label>
+        <br>
         <input type="email" class="form-control" id="email">
       </div>
       <div class="form-group">
         <label for="pwd">Password</label>
+        <br>
         <input type="password" class="form-control" id="pwd">
       </div>
       <div class="checkbox">
@@ -76,7 +78,7 @@
 
         </div>
 
-        <!-- Sign Up Section !-->
+        <!-- Right Side / Sign Up Section !-->
 
         <div class="col-sm-6">
          <div class="row">
@@ -86,65 +88,60 @@
             <p> It's free and always will be. </p>
           </div>
 
-          <div id="userinfo">
-            <div class="input-group input-group-sm">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="First name   " aria-describedby="sizing-addon3">
-            </div>
+       
+            <div class="input-group">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control first-name" placeholder="First Name" aria- describedby="basic-addon2">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control last-name" placeholder="Last Name" aria-describedby  ="basic-addon2">
+                </div>
+              </div>
+              <input type="text" class="form-control" placeholder="Email of mobile number" aria-  describedby="basic-addon2">
 
-            <div class="input-group input-group-sm">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="Last name   " aria-describedby="sizing-addon3">
-            </div>
+              <input type="text" class="form-control" placeholder="Re-enter email or mobile number" aria  -describedby="basic-addon2">
 
-            <div class="input-group input-group-sm">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="Email or mobile number   " aria-describedby="sizing-addon3">
-            </div>
-
-            <div class="input-group input-group-sm">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="Re-enter email or mobile number  " aria-describedby="sizing-addon3">
-            </div>
-
-            <div class="input-group input-group-sm">
-              <span class="input-group-addon" id="sizing-addon3"></span>
-              <input type="text" class="form-control" placeholder="New password " aria-describedby="sizing-addon3">
-            </div>
-
+              <input type="text" class="form-control" placeholder="New Password" aria-describedby="basic  -addon2">
+              </div>
+          </div>  
 
 
             <!-- Date Drop Downs !-->
+            <!-- MONTH -->
+            <div class="row dates">
+            <p class="birthday"> Birthday </p>
+            <div class="col-md-3">
             <div class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Month
                 <span class="caret"></span>
-              </button>
-
-
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a>Jan </a></li>
-                <li><a> Feb </a></li>
-                <li><a> Mar </a></li>
-                <li><a> Apr </a></li>
-                <li><a>May </a></li>
-                <li><a> Jun </a></li>
-                <li><a>Jul </a></li>
-                <li><a> Aug </a></li>
-                <li><a>Sept</a></li>
-                <li><a> Oct </a></li>
-                <li><a> Nov </a></li>
-                <li><a>Dec </a></li>
-              </ul>
+              </button>   
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a>Jan </a></li>
+                    <li><a> Feb </a></li>
+                    <li><a> Mar </a></li>
+                    <li><a> Apr </a></li>
+                    <li><a>May </a></li>
+                    <li><a> Jun </a></li>
+                    <li><a>Jul </a></li>
+                    <li><a> Aug </a></li>
+                    <li><a>Sept</a></li>
+                    <li><a> Oct </a></li>
+                    <li><a> Nov </a></li>
+                    <li><a>Dec </a></li>
+                  </ul>
+             </div>    
             </div>
-            <div class="clearfix"> </div>
 
+            <div class="col-md-3 day">
             <div class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Day
                 <span class="caret"></span>
               </button>
 
+              <!-- DAY -->
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                 <li><a> 1 </a></li>
                 <li><a> 2 </a></li>
@@ -179,15 +176,16 @@
                 <li><a> 31 </a></li>
               </ul>
             </div>
-
-
+            </div>
+            <!-- Year -->
+            <div class="col-md-3 year">
             <div class="dropdown">
               <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Year
                 <span class="caret"></span>
               </button>
 
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <ul class="dropdown-menu year" aria-labelledby="dropdownMenu1">
                 <li><a> 1990 </a></li>
                 <li><a> 1991 </a></li>
                 <li><a> 1992 </a></li>
@@ -195,34 +193,51 @@
                 <li><a> 1994 </a></li>
               </ul>
             </div>
+            </div>
 
-            <div class="clearfix"> </div>
+            <div class="col-md-3">
+              <a>Why do I need to provide my birthday?</a>
 
-            <div id="gender">
-              <form role="form">
-               <label class="radio-inline">
-                 <input type="radio" name="optradio">Female
-               </label>
-               <label class="radio-inline">
-                 <input type="radio" name="optradio">Male
-               </label>
-             </form>
 
+            </div>
+          </div>
+            <!-- <div class="clearfix"> </div> -->
+
+
+            <!-- GENDER -->
+            <div class="row gender">
+              <div id="gender">
+                <form role="form">
+                 <label class="radio-inline">
+                   <input type="radio" name="optradio">Female
+                 </label>
+                 <label class="radio-inline">
+                   <input type="radio" name="optradio">Male
+                 </label>
+               </form>
+              </div>
            </div>
 
 
            <!-- Terms !-->
-           <div id="terms">
-            <p> By clicking Sign Up, you agree to our <a href = "https://www.facebook.com/legal/terms"> Terms </a> and that you have 
-              <br>
-              read our <a href="https://www.facebook.com/about/privacy"> Data Policy </a>, including our <a href = "https://www.facebook.com/legal/terms"> Cookie Use </a>. </p>
-            </div>
+           <div class="row">
+             <div id="terms">
+              <p> By clicking Sign Up, you agree to our <a href = "https://www.facebook.com/legal/terms"> Terms </a> and that you have 
+                <br>
+                read our <a href="https://www.facebook.com/about/privacy"> Data Policy </a>, including our <a href = "https://www.facebook.com/legal/terms"> Cookie Use </a>. </p>
+              </div>
           </div>
 
+          <!-- SIGN UP BUTTON -->
+          <div class="row">
+            <div class="signup-button">
+              <button type="button" class="btn btn-success"> Sign Up</button>
+            </div>  
 
+          </div>  
 
         </div>
-
+        <!-- End of Sign Up -->
 
         <br>
       </div>
@@ -230,62 +245,123 @@
   </section>
 
 
+  <div class=""
+  <hr>
+
   <!-- MIDDLE SECTION ENDS -->
 
   <!-- Footer !-->
   
   <footer class="container">
-    <div id="languages">
-      <p> English </p>  
-      <p> Espanol </p>
-      <p> Francais (France) </p>
-      <p> Chinese </p>
-      <p> Arabic </p>
-      <p> Portugues (Brasil) </p>
-      <p> Italiano</p>
-      <p> Korean </p>
-      <p> Deutsch </p>
+    <div class="row">
+      <div class="col-md-1">
+        <a> English </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Espanol </a>
+      </div> 
+
+      <div class="col-md-1">
+        <a> Francais(France) </a>
+      </div> 
+
+      <div class="col-md-1">
+        <a> Chinese </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Arabic </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Protugues(Brasil) </a>
+      </div>   
+
+      <div class="col-md-1">
+        <a> Italiano </a>
+      </div> 
+
+      <div class="col-md-1">
+        <a> Korean </a>
+      </div> 
+
+      <div class="col-md-1">
+        <a> Deutsch </a>
+      </div> 
+
+      <div class="col-md-1">
+        <a> ... </a>
+      </div> 
     </div>
+
 
     <hr>
 
-    <div id="sitelinks">
-      <div id="sitelinks1">
-        <p> Sign Up </p>
-        <p> Log In </p>
-        <p> Facebook Lite </p>
-        <p> Mobile </p>
-        <p> Find Friends </p>
-        <p> Badges </p>
-        <p> People </p>
-        <p> Pages </p>
-        <p> Places </p>
-      </div>
+<!-- Footer Links -->
+    <div class="row">
+      <div class="col-md-1">
+        <a> Sign Up </a>
+        <br>
+        <a> Games </a>
+        <br>
+        <a> Terms </a>
+      </div>  
 
-      <br>
 
-      <!--use ancor tags instead of p tags/ create separate divs and float left !-->
-      <div id="sitelinks2">
-        <p> Games </p>
-        <p> Locations </p>
-        <p> About </p>
-        <p> Create Ad </p>
-        <p> Create Page </p>
-        <p> Developers </p>
-        <p> Careers </p>
-        <p> Privacy </p>
-        <p> Coookies </p>
-        <p> Ad Choices </p>
-      </div>
+      <div class="col-md-1">
+        <a> Log In </a>
+        <br>
+        <a> Locations </a>
+        <br>
+        <a> Help </a>
+      </div>  
 
-      <br>
+      <div class="col-md-1">
+        <a> Messenger </a>
+        <br>
+        <a> About </a>
+      </div>  
 
-      <div id="sitelinks3">
-        <p> Terms </p>
-        <p> Help </p>
-      </div>
+      <div class="col-md-1">
+        <a> Facebook Lite </a>
+        <br>
+        <a> Create Ad </a>
+      </div>  
 
-    </div>
+      <div class="col-md-1">
+        <a> Mobile</a>
+  
+        <a> Create Page </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Find Friends </a>
+        <a> Developers </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Badges </a>
+        <a> Careers </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> People </a>
+        <a> Privacy </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Pages </a>
+        <a> Cookies </a>
+      </div>  
+
+      <div class="col-md-1">
+        <a> Places </a>
+        <a> Ad Choices </a>
+      </div>  
+
+    </div>  
+
   </footer>
 
 

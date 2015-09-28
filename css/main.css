@@ -1,8 +1,29 @@
 header{
 	background: #3A5795;
-	height:60px;
+	height:80px;
+
 }
 
+.font-color{
+	font-color: #fff;
+}
+
+body{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+
+}
+
+#banner{
+	margin-top: 6px;
+}
+
+#signin{
+	margin-top: 11px;
+}
+
+#signin input{
+	height: 20px;
+}
 
 #banner{
 	float:left;
@@ -37,6 +58,35 @@ header{
 	margin-top: 20px;
 }
 
+.birthday{
+	margin-left: 16px;
+	margin-top: 10px;
+}
+
+
+
+.dates{
+	margin-left: -31px;
+}
+
+.month{
+	margin-left: 20px;
+
+}
+
+.day{
+	margin-left: -60px;
+}
+
+
+.year{
+	margin-left: -78px;
+}
+
+.gender{
+	margin-top: 1px
+
+}
 
 
 
@@ -56,16 +106,22 @@ header{
 	float:right;
 }
 
-#gender{
-	float:right;
-	margin-bottom: 80px;
-}
+
 
 #radio-inline{
 	margin-right: 10px;
 
 }
 
+#terms{
+	margin-top: 10px;
+}
+
+.signup-button button{
+	width:159px;
+	margin-bottom: 30px;
+
+}
 
 
 #languages p{
@@ -73,8 +129,7 @@ header{
 	margin-left: 20px;
 }
 
-#sitelinks p{
-	display: inline;
-	margin-left: 15px;
+.col-md-1 a{
+	font-size: 12px;
 }
 
